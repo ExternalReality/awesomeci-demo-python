@@ -5,7 +5,7 @@ orbs:
 jobs:
   build:
     docker:
-      - image: mcr.microsoft.com/windows/nanoserver
+      - image: windows/nanoserver
     executor: ruby/default
     steps:
       - checkout
